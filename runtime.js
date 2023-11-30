@@ -56,7 +56,7 @@ allArrays.forEach((array, ind) => {
     doublerInsert(array);
     let resultsInsert = perf.stop();
 
-    console.log(`${allArraysString[ind]}: Append/Push - ${resultsAppend.preciseWords}  Insert/Unshift - ${resultsInsert.preciseWords}`)
+    console.log(`${allArraysString[ind]}: doublerAppend Results - ${resultsAppend.preciseWords}  doublerInsert Results - ${resultsInsert.preciseWords}`)
 
 });
 
